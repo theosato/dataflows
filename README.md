@@ -9,7 +9,7 @@ This project contains an Airflow setup using Docker and Docker Compose to create
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/my-airflow-project.git
+   git clone https://github.com/theosato/dataflows.git
    ```
 
 2. Build and run the Docker containers:
@@ -21,13 +21,13 @@ This project contains an Airflow setup using Docker and Docker Compose to create
 
 ## Directory Structure
 
-dataflows
-├── dags/
-├── data/
-├── output/ (optional; typically excluded)
-├── plugins/
-├── scripts/
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
+dataflows<br>
+├── dags/<br>
+├── data/<br>
+├── output/ (optional; typically excluded)<br>
+├── plugins/<br>
+├── scripts/<br>
+├── Dockerfile<br>
+├── docker-compose.yml<br>
+├── requirements.txt<br>
 └── README.md (optional but recommended)
