@@ -20,3 +20,14 @@ This project contains an Airflow setup using Docker and Docker Compose to create
 3. Access the Airflow web UI at `http://localhost:8080`.
 
 ## Directory Structure
+
+dataflows
+├── dags/
+├── data/
+├── output/ (optional; typically excluded)
+├── plugins/
+├── scripts/
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md (optional but recommended)
